@@ -63,7 +63,7 @@ export default function Portfolio() {
           transition={{ duration: 0.8 }}
         >
           <Avatar className="w-40 h-40 border-4 border-white shadow-lg">
-            <AvatarImage src="/vite.svg" />
+            <AvatarImage src="./vite.svg" />
             <AvatarFallback className="bg-gradient-to-r from-blue-500 to-purple-600 text-white text-4xl font-bold">
               MA
             </AvatarFallback>

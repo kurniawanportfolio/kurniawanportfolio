@@ -8,6 +8,18 @@ export default {
   theme: {
     extend: {
       colors: {
+        brand: {
+          50: 'hsl(210, 100%, 98%)',
+          100: 'hsl(210, 100%, 96%)',
+          200: 'hsl(210, 100%, 90%)',
+          300: 'hsl(210, 100%, 80%)',
+          400: 'hsl(210, 100%, 65%)',
+          500: 'hsl(210, 100%, 50%)', // Your primary brand color
+          600: 'hsl(210, 100%, 40%)',
+          700: 'hsl(210, 100%, 30%)',
+          800: 'hsl(210, 100%, 20%)',
+          900: 'hsl(210, 100%, 10%)',
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
